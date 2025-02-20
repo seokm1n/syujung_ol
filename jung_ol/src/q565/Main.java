@@ -17,8 +17,7 @@ public class Main {
             if (num == 0) {
                 break;
             }
-            int n = num / 10;
-            arr[n]++;
+            arr[num / 10]++;
         }
         sc.close();
         
